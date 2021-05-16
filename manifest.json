@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "description": "",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://atcoder.jp/contests/typical90/tasks"],
+      "js": ["content.js"]
+    }
+  ]
+}
