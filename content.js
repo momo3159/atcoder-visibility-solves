@@ -23,7 +23,6 @@ fetch(url)
       const id_box = q.children[0]
       const id = q.innerText.split('	')[0]
       id_box.children[0].style.color='black'
-      // id_box.innerHTML.innerText.style.color = "black"
       if(info[id].score == 0) {
         id_box.style.backgroundColor = '#FF7043'
       } else {
